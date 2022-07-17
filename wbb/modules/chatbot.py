@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 from asyncio import gather, sleep
-
+from googletrans import Translator as google_translator
 from pyrogram import filters
 from pyrogram.types import Message
 
