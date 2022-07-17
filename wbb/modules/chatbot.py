@@ -41,6 +41,8 @@ from wbb.core.decorators.errors import capture_err
 from wbb.utils.filter_groups import chatbot_group
 from wbb.utils.dbfunctions import check_chatbot, add_chatbot, rm_chatbot
 
+translator = google_translator()
+
 __MODULE__ = "ChatBot"
 __HELP__ = """
 /chatbot [ENABLE|DISABLE] To Enable Or Disable ChatBot In Your Chat.
